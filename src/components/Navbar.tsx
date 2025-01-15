@@ -178,7 +178,7 @@ export default function Navbar() {
               }`}
             >
               {links.map((link) => (
-                <li key={link.title} className="flex flex-col gap-8 group">
+                <li key={link.title} className="flex flex-col gap-8 group tes">
                   <Link href={link.href}>
                     <h1 className="text-primary xl:text-8xl text-4xl uppercase relative duration-500 group-hover:text-gray-600">
                       {link.title}
