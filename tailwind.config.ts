@@ -14,6 +14,10 @@ export default {
         primary: "#3a3a3a",
         secondary: "#f3f3f3",
       },
+      dropShadow: {
+        "primary-c": "3px 3px 0px rgba(58, 58, 58, 1)",
+        "secondary-c": "3px 3px 0px rgba(243, 243, 243, 1)",
+      },
     },
   },
   plugins: [],

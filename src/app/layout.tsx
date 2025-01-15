@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Fahrell Sandy | Portfolio",
@@ -19,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${fonts.className} antialiased`}>{children}</body>
+      <body className={`${fonts.className} antialiased h-screen`}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
