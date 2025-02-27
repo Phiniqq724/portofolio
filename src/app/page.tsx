@@ -9,6 +9,7 @@ export default function page() {
       <Header />
       <AboutMe />
       <Portofolio />
+      <h1>Miaw</h1>
     </>
   );
 }
