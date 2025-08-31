@@ -146,7 +146,7 @@ export default function Navbar() {
   return (
     <div className="fixed top-0 left-0 w-full z-50">
       <nav className="flex justify-around items-center py-4">
-        <div>
+        <div className="">
           <Link href="/" className="focus:outline-none">
             <h1 className="text-2xl font-bold text-white">Fahrell Sandy</h1>
           </Link>

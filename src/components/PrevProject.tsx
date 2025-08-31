@@ -79,7 +79,7 @@ export default function PrevProject({
         <Image
           src={image}
           alt="Project"
-          className={`rounded-xl image-${index}`}
+          className={`rounded-xl image-${index} outline outline-secondary outline-1`}
           width={1500}
           height={850}
         />
